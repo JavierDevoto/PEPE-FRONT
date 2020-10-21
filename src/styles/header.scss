@@ -1,0 +1,16 @@
+@import './general.scss';
+
+.container-header {
+  @extend .full-width;
+
+  height: 150px;
+  background-color: grey;
+
+  @media (max-width: $md) {
+    background-color: rgb(235, 135, 135);
+  }
+
+  @media (max-width: $sm) {
+    background-color: rgb(151, 202, 151);
+  }
+}

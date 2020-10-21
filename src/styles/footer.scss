@@ -1,0 +1,16 @@
+@import './general.scss';
+
+.container-footer {
+  @extend .full-width;
+
+  height: 150px;
+  background-color: rgba(111, 166, 197, 0.959);
+
+  @media (max-width: $md) {
+    background-color: rgb(128, 126, 207);
+  }
+
+  @media (max-width: $sm) {
+    background-color: rgb(195, 136, 212);
+  }
+}

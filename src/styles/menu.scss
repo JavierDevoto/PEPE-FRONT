@@ -1,0 +1,17 @@
+@import './general.scss';
+
+.container-menu {
+  @extend .full-width;
+
+  display: flex;
+  height: 150px;
+  background-color: rgba(74, 175, 83, 0.959);
+  
+  @media (max-width: $md) {
+    background-color: rgb(77, 70, 170);
+  }
+  
+  @media (max-width: $sm) {
+    background-color: rgb(214, 83, 83);
+  }
+}

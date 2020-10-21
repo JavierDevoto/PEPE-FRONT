@@ -1,0 +1,40 @@
+@import './general.scss';
+
+.container-page {
+  @extend .full-width;
+
+  display: flex;
+  min-height: 1000px;
+  background-color: rgba(214, 214, 214, 0.959);
+
+  @media (max-width: $md) {
+    background-color: rgb(235, 135, 213);
+  }
+
+  @media (max-width: $sm) {
+    background-color: rgb(182, 201, 99);
+  }
+}
+
+.container-content {
+  @extend .full-width;
+
+  display: flex;
+  min-height: 1000px;
+  background-color: rgba(41, 129, 151, 0.959);
+
+  @media (max-width: $md) {
+    background-color: rgb(235, 135, 152);
+  }
+
+  @media (max-width: $sm) {
+    background-color: rgb(201, 179, 57);
+  }
+}
+
+.container-home-cards {
+  @extend .full-width;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px;
+}
